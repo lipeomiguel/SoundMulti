@@ -1,0 +1,36 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .container{
+        width: 350px;
+        height: 10.8rem;
+        display: flex;
+        gap: 1.2rem;
+        border: 1px solid var(--border-color);
+        border-bottom-left-radius: 1.2rem;
+        border-bottom-right-radius: 1.2rem;
+        background-color: var(--backgroundInput-color);
+        cursor: pointer;
+        div{
+            width: 30px;
+            height: 100%;
+            background-color: var(--input-background-color);
+            cursor: pointer;
+            display: flex;
+            &:hover{
+                background-color: var(--border-black-color);
+            }
+            &:first-child{
+                border-bottom-left-radius: 1.2rem;
+            }
+            &:last-child{
+                border-bottom-right-radius: 1.2rem;
+            }
+        }
+    }
+}
