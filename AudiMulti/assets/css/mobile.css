@@ -1,0 +1,11 @@
+/* ! Desktops and laptops */
+@media only screen and (max-width: 1224px) {
+  h3 {
+    font-size: clamp(1.2rem, 1.5vh, 0.6rem);
+  }
+  .result-number {
+    font-size: clamp(0.8rem, 1.5vh, 0.6rem) !important;
+  }
+}
+
+/*# sourceMappingURL=mobile.css.map */
