@@ -1,0 +1,1 @@
+Pra iniciar o servidor: npx json-server backend/video.json
